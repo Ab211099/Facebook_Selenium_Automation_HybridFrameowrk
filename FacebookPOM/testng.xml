@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Test">
+        <classes>
+            <class name="com.bridelabz.selenium.FacebookTest">
+                <parameter name="userName" value="7972393596"></parameter>
+                <parameter name="password" value="@bhi007B"></parameter>
+                <methods>
+                    <include name="validateUrlNavigation"/>
+                    <include name="loginToFacebook"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
